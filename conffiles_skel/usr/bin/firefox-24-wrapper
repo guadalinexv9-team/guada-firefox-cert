@@ -1,0 +1,12 @@
+#!/bin/bash
+
+MOZ_PROFILEDIR=.mozilla/firefox
+
+    profiles=$(grep Path $HOME/$MOZ_PROFILEDIR/profiles.ini | cut -f2 -d=)
+    for i in $profiles; do
+       if [ -z "$(modutil -dbdir $HOME/$MOZ_PROFILEDIR/$i -list -force | grep opensc-pkcs11.so)" ]; then
+           [ -f /usr/lib/dnieopensc-pkcs11.so ] && modutil -dbdir $HOME/$MOZ_PROFILEDIR/$i -add DNIe -libfile /usr/lib/dnieopensc-pkcs11.so -force
+       fi
+    done
+
+/opt/firefox/firefox -UILocale es-ES $@

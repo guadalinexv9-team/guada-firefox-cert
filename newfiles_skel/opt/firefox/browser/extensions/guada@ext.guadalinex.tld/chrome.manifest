@@ -1,0 +1,18 @@
+overlay chrome://browser/content/browser.xul  chrome://cck-guada/content/cck-browser-overlay.xul
+overlay chrome://browser/content/browser.xul  chrome://cck-guada/content/cck-browser-overlay-nonmac.xul os!=Darwin
+overlay chrome://browser/content/browser.xul  chrome://cck-guada/content/cck-browser-overlay-mac.xul os=Darwin
+overlay chrome://browser/content/preferences/preferences.xul  chrome://cck-guada/content/cck-prefs-overlay.xul
+overlay chrome://browser/content/aboutDialog.xul  chrome://cck-guada/content/cck-aboutDialog-overlay.xul
+overlay chrome://mozapps/content/extensions/extensions.xul chrome://cck-guada/content/cck-extensions-overlay.xul
+overlay about:addons chrome://cck-guada/content/cck-extensions-overlay.xul
+style chrome://mozapps/content/extensions/extensions.xul chrome://cck-guada/content/cck-extensions-overlay.css
+style about:addons chrome://cck-guada/content/cck-extensions-overlay.css
+
+content	cck-guada	chrome/content/cck/
+resource cck-guada modules/
+
+
+
+component {9361c15d-96af-4ae9-9be0-45e65e256d5b} components/cckService.js
+contract @mozilla.org/cck-service-guada;2 {9361c15d-96af-4ae9-9be0-45e65e256d5b}
+category profile-after-change guadaCCKService @mozilla.org/cck-service-guada;2
