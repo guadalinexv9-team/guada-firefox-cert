@@ -3,7 +3,7 @@
 
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: guada-firefox-cert 
+name: firefox-esr-guadaext
 
 # Autor 
 author: David Amian Valle <damian@emergya.es>
@@ -22,7 +22,7 @@ longdesc: "Guadalinex/Gecos cert package"
 
 
 # Versión del paquete
-version: 9.0
+version: 1.0
 
 # Cambios en esta versión
 changes:
