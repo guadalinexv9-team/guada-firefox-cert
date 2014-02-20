@@ -18,7 +18,7 @@ section: metapackages
 shortdesc: "Guadalinex/Gecos cert package"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "Guadalinex/Gecos cert package"
+longdesc: "Guadalinex/Gecos cert package for firefox"
 
 
 # Versión del paquete
