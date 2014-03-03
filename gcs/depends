@@ -5,5 +5,5 @@
 libnss3-tools
 firefox-esr
 opensc-dnie
-java-runtime
-icedtea-plugin
+icedtea-7-plugin 
+ttf-dejavu-extra
