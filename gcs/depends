@@ -2,8 +2,6 @@
 # File with depends 
 #END
 
-libnss3-tools
 firefox-esr
-opensc-dnie
 icedtea-7-plugin 
 ttf-dejavu-extra
