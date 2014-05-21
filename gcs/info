@@ -1,7 +1,6 @@
 # YAML 1.1
 # Fichero de configuración de paquetes de personalización de Guadalinex v6
 
-
 # Nombre del paquete (minúsculas-separado-con-guiones)
 name: firefox-esr-guadaext
 
