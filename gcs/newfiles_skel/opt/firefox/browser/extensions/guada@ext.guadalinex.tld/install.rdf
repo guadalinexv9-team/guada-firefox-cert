@@ -8,7 +8,7 @@ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
         <em:version>0.1</em:version>
         <em:description>Guada extension</em:description>
         <em:creator>Guadalinex Dev Team</em:creator>
-        <em:homepageURL>http://www.guadalinex.org</em:homepageURL>
+        <em:homepageURL>http://www.guadalinex.org/distro/V9/</em:homepageURL>
                                                 
         <em:targetApplication>
             <Description>
