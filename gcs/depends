@@ -2,8 +2,7 @@
 # File with depends 
 #END
 
-libnss3-tools
-guadalinexv9-firefox-24.2.0-32
-opensc-dnie
-java-runtime
+firefox-esr
+icedtea-7-plugin
+ttf-dejavu-extra
 
